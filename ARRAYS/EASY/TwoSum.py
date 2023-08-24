@@ -30,5 +30,18 @@ class Solution:
                 return [i,nums.index(complement)]
             
 """
-
+hashing method--> more time efficient
+--> but requires more memory
 """
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        dic = {}
+        n= len(nums)
+        for i in range(n):
+            dic[nums[i]] = i
+
+        for i in range(n):
+            complement = target - nums[i]
+            if complement in dic and dic[complement]!=i:
+                return [i, dic[complement]]
