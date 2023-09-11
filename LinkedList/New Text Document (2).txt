@@ -1,0 +1,56 @@
+Balamurugan Palaniappan8:28 PM
+Explain the output in all tabs. 
+
+counts for what? -- counts of samples
+
+what is class 0 and class 1 for binary classification? -- explain
+
+when discussing train_test_split, indicate that there is already a test set. 
+
+W^1 connects --- 
+
+W^2 connects ---
+
+W^3 connects --- 
+
+784, 200, 100 ,1 -- 
+
+dont say this expression, this result so on.. 
+
+np.dot, * can be changed using np.matmul
+
+this is the expression  --
+
+x,y,zs,activations -- already discussed -- 
+
+m is calculated like this 
+
+error and lo
+error and loss function -- not good
+
+i,j,v discussions
+
+shuffling -- how is it done? 
+
+after shuffling, explain the structure of list
+
+patience explanation -- 
+
+do not mix binary and multi-class classification 
+
+Neural_Network -- instantiaton 
+
+loss function -- for train and val
+
+confusion matrix -- explain
+
+
+---------------------- 
+
+multi-class classification 
+
+train_test_split -- 
+
+one hot encoded -- explain
+
+early stopping criterion --
