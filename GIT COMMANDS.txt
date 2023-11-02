@@ -1,0 +1,19 @@
+FIRST CLONE THE GIT FOLDER--> CLICK ON THIRD OPTION ON VS CODE LEFT BAR
+
+git --version
+
+git config --global user.email "22m1514.iitb@gmail.com"
+
+git config --global user.name "KiranEC11"
+
+git remote add origin https://github.com/KiranEC11/LangChain.git
+
+git pull origin main
+
+git add .
+
+git commit -m "Initial Commit"
+
+git push origin main
+
+git status
